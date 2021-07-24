@@ -49,10 +49,12 @@ public class DiceRoll {
 
 		rollButton.addActionListener((e) -> {
 
+			Random ran=new Random();
 			// 1. Make randomChoice equal to a random number between 1 and 6
 			int randomChoice = 0;
-			for (int i=0; i<1; i++) {
-				randomChoice = ran.nextInt(1-6) + 1;
+			for (int i=0; i< 1; i++) {
+				randomChoice = ran.nextInt(6)+1;
+				System.out.println(randomChoice);
 	}
 			// 2. Fix the code below so that it displays the correct image
 			if (randomChoice == 0) {
