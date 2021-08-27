@@ -10,15 +10,19 @@ public class randomnumbers {
 	Random ran=new Random();
 	int num1 = 0;
 	int num2 = 0;
+	int num3 = 0;
+	int num4 = 0;
+	int num5 = 0;
+	int num6 = 0;
 	
-	
-	
-	
-	for (int i=0; i<1; i++) {
 		num1=ran.nextInt(10)+1;
-
-	}
-	JOptionPane.showMessageDialog(null, num1+", " );
+		num2=ran.nextInt(10)+1;
+		num3=ran.nextInt(10)+1;
+		num4=ran.nextInt(10)+1;
+		num5=ran.nextInt(10)+1;
+		num6=ran.nextInt(10)+1;
+		
+	JOptionPane.showMessageDialog(null, num1+", "+num2+", "+num3+", "+num4+", "+num5+", "+num6 );
 	
 	}	
 
