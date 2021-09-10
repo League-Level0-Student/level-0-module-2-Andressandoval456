@@ -30,6 +30,11 @@ public class SafeCracker {
 		 * combinations
 		 */		
 
+for (int safecode=9999999; safecode>0; safecode-=1) {
+
+tryCode(safecode);
+
+}
 	}
 
 	 void tryCode(int guess) {
@@ -40,6 +45,7 @@ public class SafeCracker {
 		if (guess == secretCode) {
 			JOptionPane.showMessageDialog(null, "Congratulations! You cracked the safe with " + guess);
 			playTheSoundOfSuccess();
+			System.out.println("Congratulations! You cracked the safe with ");
 			System.exit(0);
 		}
 	}
