@@ -9,16 +9,18 @@ void setup() {
      // This code draws the holes. Run the program to see them.
      
      fill(0, 0, 0);
-     ellipse(200, 200, 100, 30);
-     ellipse(70, 119, 100, 30);
-     ellipse(300, 60, 100, 30);
-     ellipse(297, 350, 100, 30);
+     ellipse(200, 200, 100, 100);
+     ellipse(70, 119, 100, 100);
+     ellipse(300, 60, 100, 100);
+     ellipse(297, 350, 100, 100);
 }
 
 void draw() {
-
+drawMole(200, 200);
 /* Write code here that uses the drawMole method to put a mole in each of the holes */
-
+drawMole(70, 110);
+drawMole(300, 60);
+drawMole(297, 350);
 
 }
 
