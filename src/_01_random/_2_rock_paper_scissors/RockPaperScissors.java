@@ -75,7 +75,7 @@ public class RockPaperScissors extends JPanel implements ActionListener{
     @Override
     public void actionPerformed(ActionEvent e) {
         
-        //1. Run the program and play many rounds of Rock Paper Scissors. Does the computer always choose the same thing?
+        //1. Run the program and play mvany rounds of Rock Paper Scissors. Does the computer always choose the same thing?
     	 int opponentSelection = 0;
     	 
         //2. Change the value of opponentSelection to be a random number between 0 and 2;
