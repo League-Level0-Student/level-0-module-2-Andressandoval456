@@ -7,7 +7,8 @@ public class MethodCall {
 	// Add ONE line of code to fix this program.
 	
 	public static void main(String[] args) {
-		
+	//	System.out.println("Hello World");
+		printMessage("Hello World");
 	}
 	
 	static void printMessage(String aMessage) {

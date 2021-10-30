@@ -9,15 +9,13 @@ public class HowMany {
 	// Change one line of code to fix this program.
 	
 	public static void main(String[] args) {
-		int number = 0;
-		Random random = new Random();
-		 number = random.nextInt(100)+1;
-		System.out.println(number);
+	//	int number = getRandomNumber();
+		System.out.println(new HowMany().getRandomNumber());
 	}
 	
-//	int getRandomNumber() {
-//		Random random = new Random();
-//		int number = random.nextInt(100)+1;
-//		return number;
+	 int getRandomNumber() {
+		Random random = new Random();
+		int number = random.nextInt(100)+1;
+		return number;
 	}
-//}
+}
